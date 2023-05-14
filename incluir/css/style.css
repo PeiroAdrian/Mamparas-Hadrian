@@ -1,4 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
+li, .btn, h5, p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+
+/*NAVBAR*/
 .navbar{
     box-shadow: 2px 2px 5px #000;
     opacity: .9;
@@ -11,6 +22,38 @@
     border-radius: 28px;
 }
 
+.nav-link{
+    position: relative;
+}
+
+.nav-link::after{
+    content: '';
+    opacity: 0;
+    transition: all 0.2s;
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+.sm-icons{
+    flex-direction: row;
+}
+
+.sm-icons .nav-link{
+    /*padding-right: 1em;*/
+    margin-right:0.5em ;
+}
+
+
+.nav-link:hover::after{
+    opacity: 1;
+}
+
+/*CAROUSEL*/
 .carousel-inner::before{
     content: '';
     position: relative;
@@ -56,6 +99,14 @@
     line-height: 1.9;
     margin-bottom: 50px;
 }
+
+/*SMOOTH SCROLL*/
+html{
+    scroll-behavior: smooth;
+}
+
+
+
 
 /*
 .main-header{
