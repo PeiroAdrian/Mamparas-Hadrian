@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-li, .btn, h5, p {
+li,
+.btn,
+h5,
+p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -31,26 +34,26 @@ li, .btn, h5, p {
     position: relative;
 }
 
-    .nav-link::after {
-        content: '';
-        opacity: 0;
-        transition: all 0.2s;
-        height: 2px;
-        width: 100%;
-        background-color: white;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-    }
+.nav-link::after {
+    content: '';
+    opacity: 0;
+    transition: all 0.2s;
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
 
 
 .sm-icons {
     flex-direction: row;
 }
 
-    .sm-icons .nav-link {
-        margin-right: 0.5em;
-    }
+.sm-icons .nav-link {
+    margin-right: 0.5em;
+}
 
 
 .nav-link:hover::after {
@@ -66,7 +69,7 @@ li, .btn, h5, p {
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(47, 54, 64,.7);
+    background: rgba(47, 54, 64, .7);
     z-index: 2;
 }
 
@@ -90,19 +93,19 @@ li, .btn, h5, p {
     z-index: 3;
 }
 
-    .carousel-caption h5 {
-        font-size: 45px;
-        letter-spacing: 2px;
-        margin-top: 20px;
-    }
+.carousel-caption h5 {
+    font-size: 45px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
 
-    .carousel-caption p {
-        width: 60%;
-        margin: auto;
-        font-size: 18px;
-        line-height: 1.9;
-        margin-bottom: 50px;
-    }
+.carousel-caption p {
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+    margin-bottom: 50px;
+}
 
 /*SMOOTH SCROLL*/
 html {
@@ -140,7 +143,42 @@ html {
 }
 */
 
+/*
+.coca-cola{
+    width: 50%;
+}
+*/
 
+img.logos{
+    text-align: center;
+}
+
+.coca-cola{
+    padding-top: 30px;
+    margin-left: 90px;
+}
+
+.home-depot{
+    margin-left: 100px;
+}
+
+.ford{
+    padding-top: 30px;
+    margin-left: 100px;
+}
+
+.zobele{
+    margin-left: 100px;
+}
+
+.agencia-mg{
+    margin-left: 100px;
+
+}
+
+.colossus{
+    margin-left: 80px;
+}
 
 .row {
     margin: auto;
@@ -155,7 +193,7 @@ html {
     max-width: 1100px;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 50px;
     margin-top: 20px;
 }
@@ -172,7 +210,7 @@ html {
     color: #0d6efd;
     font-size: 32px;
     margin-right: 10px;
-        
+
 }
 
 .contacto h3 {
@@ -190,8 +228,7 @@ html {
     background: #e5e4e4;
     padding: 30px;
     margin: auto;
-    margin-top: 100px;
+    
     border-radius: 5px;
     box-shadow: 5px 10px 20px #000;
 }
-
