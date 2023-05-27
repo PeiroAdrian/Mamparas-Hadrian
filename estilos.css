@@ -11,9 +11,7 @@ p {
     text-decoration: none;
 }
 
-
 /*NAVBAR*/
-
 .navbar {
     box-shadow: 2px 2px 5px #000;
     opacity: .9;
@@ -22,12 +20,10 @@ p {
 }
 
 
-
 .navbar-brand {
     background-color: white;
     border-radius: 28px;
 }
-
 
 
 .nav-link {
@@ -107,6 +103,27 @@ p {
     margin-bottom: 50px;
 }
 
+/*RESPONSIVE CSS*/
+@media only screen and (max-width: 767px){
+    .navbar-brand{
+        text-align: center;
+    }
+
+    .carousel-caption{
+        bottom: 125px;
+    }
+
+    .carousel-caption h5{
+        font-size: 30px;
+    }
+
+
+    .carousel-caption a{
+        padding: 10px 15px;
+    }
+
+}
+
 /*SMOOTH SCROLL*/
 html {
     scroll-behavior: smooth;
@@ -128,26 +145,6 @@ html {
     filter: blur(0);
     transform: translateX(0);
 }
-
-/*
-.card:nth-child(2){
-    transition-delay: 200ms;
-}
-
-.card:nth-child(3){
-    transition-delay: 400ms;
-}
-
-.card:nth-child(4){
-    transition-delay: 600ms;
-}
-*/
-
-/*
-.coca-cola{
-    width: 50%;
-}
-*/
 
 img.logos{
     text-align: center;

@@ -15,7 +15,7 @@
 
 <body>
   <!--NAVIGATION-->
-  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
+  <nav id="inicio" class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
     <div class="container">
       <a class="navbar-brand" href="#inicio">
         <img src="incluir/imagenes/logo.png" alt="logo" width="150px">
@@ -38,9 +38,7 @@
           <li class="nav-item">
             <a class="nav-link" href="#contacto">Contacto</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#trabajo">Trabajo</a>
-          </li>
+          
         </ul>
         <ul class="navbar-nav sm-icons">
           <li><a class="nav-link" href="#"><i class="bi bi-whatsapp"></i></a></li>
@@ -67,15 +65,15 @@
       <div class="carousel-inner c-item">
         <div class="carousel-item active">
           <img src="/incluir/imagenes/fondo5.jpg" class="d-block w-100 c-img" alt="img1">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Instalación de Mamparas y Puertas Metálicas</h5>
+          <div class="carousel-caption">
+            <h5>Mamparas y Puertas Metálicas</h5>
             <p>En Hermosillo, Sonora.</p>
             <p><a href="#contacto" class="btn btn-primary mt-3"> Contáctanos </a></p>
           </div>
         </div>
         <div class="carousel-item c-item">
           <img src="/incluir/imagenes/fondo7.jpg" class="d-block w-100 c-img" alt="img2">
-          <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-caption">
             <h5>Nuestros Productos</h5>
             <p>Observa nuestro catálogo.</p>
             <p><a href="#catalogo" class="btn btn-primary mt-3">Ver Catálogo</a></p>
@@ -83,7 +81,7 @@
         </div>
         <div class="carousel-item c-item">
           <img src="/incluir/imagenes/fondo3.jpg" class="d-block w-100 c-img" alt="img3">
-          <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-caption">
             <h5>¿Quiénes Somos?</h5>
             <p>Conoce mas acerca de nosotros.</p>
             <p><a href="#conocenos" class="btn btn-primary mt-3">Conócenos</a></p>
@@ -160,11 +158,6 @@
           </div>
         </div>
       </div>
-      <!--
-        <div class="text-center mt-5">
-        <h1>Nuestros Clientes</h1>
-      </div>
-      -->
     </div>
   </section>
 
@@ -174,20 +167,27 @@
       <p class="lead text-center text-white mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
         Aperiam minima aut labore molestias.
       </p>
-      <div class="row">
-        <div class="col-4">
+      <div class="row g-4">
+        <div class="col-md">
+          <div class="h1 mb-3 text-center text-white"><i class="bi bi-clipboard2-check-fill"></i>
+          </div>
           <h2 class="text-center text-white">Misión</h2>
+          
           <p class="lead text-center text-white mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Aperiam minima aut labore molestias.
           </p>
         </div>
-        <div class="col-4">
+        <div class="col-md">
+          <div class="h1 mb-3 text-center text-white"><i class="bi bi-eye-fill"></i>
+          </div>
           <h2 class="text-center text-white">Visión</h2>
           <p class="lead text-center text-white mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Aperiam minima aut labore molestias.
           </p>
         </div>
-        <div class="col-4">
+        <div class="col-md">
+          <div class="h1 mb-3 text-center text-white"><i class="bi bi-emoji-smile-fill"></i>
+          </div>
           <h2 class="text-center text-white">Valores</h2>
           <p class="lead text-center text-white mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Aperiam minima aut labore molestias.
@@ -197,8 +197,8 @@
     </div>
   </section>
 
-  
-<section>
+
+  <section>
     <div class="p-5 d-flex py-12 flex-wrap flex-justify-around">
       <div class="d-inline-block mb-3 px-2 px-md-6 px-lg-0">
         <img src="incluir/imagenes/coca-cola.png" alt="coca-cola" width="100px" class="coca-cola">
@@ -220,37 +220,9 @@
       </div>
     </div>
   </section>
-  
-
-  <!--
-      <section>
-    <div class="row">
-      <div class="p-5 d-flex flex-wrap flex-justify-around col-lg-2 col-md-2 col-sm-2 col-xs-2">
-        <img src="incluir/imagenes/coca-cola.png" alt="coca-cola" width="100px">
-      </div>
-      <div class="col-lg-2">
-        <img src="incluir/imagenes/Home-Depot.png" alt="coca-cola" width="100px">
-      </div>
-      <div class="col-lg-2">
-        <img src="incluir/imagenes/ford.png" alt="coca-cola" width="100px">
-      </div>
-      <div class="col-lg-2">
-        <img src="incluir/imagenes/mg-logo.png" alt="coca-cola" width="100px">
-      </div>
-      <div class="col-lg-2">
-        <img src="incluir/imagenes/zobele.png" alt="coca-cola" width="100px">
-      </div>
-      <div class="col-lg-2">
-        <img src="incluir/imagenes/colossus.jpg" alt="coca-cola" width="100px">
-      </div>
-    </div>
-  </section>
-  -->
-
-
 
   <!--CONTACTO-->
-  <section id="contacto" class="contacto ">
+  <section id="contacto" class="contacto mb-5">
     <h3>Contacto</h3>
     <div class="container2">
       <div class="info-form" runat="server">
@@ -271,9 +243,8 @@
           <li><a class="nav-link2" href="https://www.instagram.com/mamparashadrian_sonora/"><i
                 class="bi bi-instagram"></i></a></li>
         </ul>
-
-
       </div>
+
       <form class="row" runat="server">
         <p> Para obtener más información acerca de nuestro precios,
           envíanos un correo con su información para poder contactarnos.</p> <br>
@@ -306,18 +277,22 @@
     </div>
   </section>
 
+  <!--FOOTER-->
+  <footer class="p-5 bg-dark text-white text-center position-relative">
+    <div class="container">
+      <p class="lead">Copyright &copy; 2023 Mamparas Hadrian</p>
+      <a href="#inicio" class="position-absolute bottom-0 end-0 p-5">
+        <i class="bi bi-arrow-up-circle h1"></i>
+      </a>
+    </div>
+  </footer>
+
+
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
     crossorigin="anonymous"></script>
-
-  <footer class="text-center py-3">
-    <div class="container">
-
-    </div>
-    &copy; Mamparas y Puertas Metalicas.
-
-  </footer>
 </body>
 
 </html>
