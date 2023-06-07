@@ -177,6 +177,17 @@ img.logos{
     margin-left: 80px;
 }
 
+@media only screen and (max-width: 767px){
+    .trabajo{
+        padding-left: 50px;
+    }
+
+    .colossus{
+        padding-left: 40px;
+    }
+
+}
+
 .row {
     margin: auto;
     display: flex;
